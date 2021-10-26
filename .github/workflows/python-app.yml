@@ -34,5 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pwd
+        ls -a
         export pythonpath=src
         pytest
