@@ -35,5 +35,5 @@ jobs:
       run: |
         pwd
         ls -a
-        export pythonpath=src
+        export PYTHONPATH=src
         pytest
